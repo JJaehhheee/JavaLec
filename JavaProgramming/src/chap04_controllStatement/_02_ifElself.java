@@ -1,8 +1,10 @@
 package chap04_controllStatement;
 
+import java.io.IOException;
+
 public class _02_ifElself {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		//1. 입력받은 영문자의 대소문자 판별
 		System.out.print("영문자 하나를 입력하세요. : ");
