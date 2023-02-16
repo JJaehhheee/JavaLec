@@ -18,12 +18,38 @@ public class _04_inputCalc {
 		String op = sc.next();
 		
 		switch(op) {
-		case "+" :
-			System.out.println(num1 + " " + op + " " + num2 + " = "
-								+ add(num1, num2));
-			break;
-		case"-":
+			case "+" :
+				System.out.println(num1 + " " + op + " " 
+							+ num2 + " = " + add(num1, num2));
+				break;
+			case "-" :
+				System.out.println(num1 + " " + op + " " 
+						+ num2 + " = " + minus(num1, num2));
+				break;
+			case "*" :
+				System.out.println(num1 + " " + op + " " 
+						+ num2 + " = " + multiple(num1, num2));
+				break;
+			case "/" :
+				System.out.println(num1 + " " + op + " " 
+						+ num2 + " = " + divide(num1, num2));
+				break;
 		}
 	}
-
+	
+	public static int add(int a, int b) {
+		return a + b;
+	}
+	
+	public static int minus(int a, int b) {
+		return a - b;
+	}
+	
+	public static long multiple(int a, int b) {
+		return a * b;
+	}
+	
+	public static double divide(int a, int b) {
+		return (double)a / b;
+	}
 }
