@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 import chap05_class.calc.Calculator;
 
-
-public class _10_inputCalculator {
+public class _10_inputCalc2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-				
+		
 		System.out.print("정수 하나 입력 : ");
 		int num1 = sc.nextInt();
 		
@@ -26,6 +25,16 @@ public class _10_inputCalculator {
 		
 		//결과 출력
 		calc.calc();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
-
 }
