@@ -13,10 +13,10 @@ public class _01_interfaceInherit {
 		// 동일한 clac메소드 호출
 		//다형성의 기초 : 동일한 이름의 메소드를 상속받아도 전혀 다른 결과값을
 		//낼 수 있는 것. 동일한 메소드로 여러 개의 기능을 구현할 수 있다.
-		add.clac(1, 2);
+		add.calc(1, 2);
 		min.clac(1, 2);
 		
-		//Add가 Calculator를 상속받았기 떄문에 Add는 Calculator의 모양도
+		//Add가 Calculator를 상속받았기 때문에 Add는 Calculator의 모양도
 		//가지고 있으면서 Add의 형태도 가지고 있다.
 		//Calculator cal = new Add();
 		Calculator cal = Add();
@@ -30,6 +30,11 @@ public class _01_interfaceInherit {
 		cal = min;
 		
 		cal.calc(1, 2);
+	}
+
+	private static Calculator Add() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

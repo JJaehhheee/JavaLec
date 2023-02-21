@@ -2,7 +2,7 @@ package chap99_etc.games;
 
 import java.util.Scanner;
 
-public class NumBaseball {
+public class NumBaseball extends GamesClass{
 	//1. 필요한 변수들 선언
 	//스트라이크와 볼의 개수를 세어줄 변수
 	private int strike = 0;
